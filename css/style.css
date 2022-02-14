@@ -10,32 +10,45 @@ body{
 
 .link{
    font-family: Arial, Helvetica, sans-serif;
-   max-width: 300px;
+   max-width: 160px;
    font-size: 14px;
    background-color: #cc9577;
    color: #fff;
    padding: 15px 30px;
-   display: inline-block;
+   display: block;
    border-radius: 20px;
-   margin: 30px 30px 20px  650px;
+   margin: 30px auto ;
    text-transform: uppercase;
    letter-spacing: 1px;
    box-shadow: 0 5px 0  #614638;
    font-weight: 900;
    transition: all 0.3s ease 0s;
+   text-align: center;
    
 
 }
 
 .link:hover{
-   margin: 32px 30px 20px 650px;
+   margin: 32px auto ;
+   padding: 17px 32px;
+   max-width: 190px;
+   
    background-color: #cf9d82;
    box-shadow: 0 3px 0  #614638;
+   font-size: 15px;
+   border-radius: 25px;
 
 }
 
 .link:active{
-   margin: 35px 30px 20px 650px;
-   box-shadow: 0 0px 5px 0px  #614638, inset 0 0px 5px 0px  #614638;
+   margin: 35px auto;
+   box-shadow: 0 0px 0px 0px  #614638, inset 0 0px 5px 0px  #614638;
    
+}
+
+.link:visited{
+   margin: 35px auto;
+   background-color: #666;
+   box-shadow: 0 0px 0px 0px  #614638, inset 0 0px 5px 0px  #614638;
+
 }
